@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Agency</title>
+    <meta name="description" content="Travel agency">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1 class="text-center">Travel Agency </h1>
+</header>
+
+<nav class="navbar navbar-expand justify-content-center mt-3 d-flex">
+    <div class="container-fluid overflow-hidden justify-content-center text-center" >
+    <div class="row">
+        <div class="col-sx-12 col-lg-3">
+            <a href="https://www.w3schools.com/html/default.asp"> Home</a>
+        </div>
+        <div class="col-sx-12 col-lg-3">
+            <a href="https://www.w3schools.com/html/default.asp">Tours</a>
+        </div>
+        <div class="col-sx-12 col-lg-3">
+            <a href="https://www.w3schools.com/html/default.asp">Gallery</a>
+        </div>
+        <div class="col-sx-12 col-lg-3">
+            <a href="https://www.w3schools.com/html/default.asp">Contacts</a>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<main>
+<section class = 'galleryPhotos'>
+    <div class="bootstrap">
+        <div class="container overflow-hidden">
+            <div class="row gx-3 gy-3">
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/Dubai.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/Dubai.jpg"  alt="Dubai" ></a>
+                </div>
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/Moscow.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/Moscow.jpg"   alt="Moscow"></a>
+                </div>
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/LasVegas.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/LasVegas.jpg"  alt="Las Vegas" ></a>
+                </div>
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/Maldives.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/Maldives.jpg"  alt="Maldives" ></a>
+                </div>
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/Paris.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/Paris.jpg"  alt="Paris" ></a>
+                </div>
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <a href="pics/Tallinn.jpg" data-toggle="lightbox" data-gallery="example-gallery"><img src="pics/Tallinn.jpg" alt="Tallinn" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <h3 class="text-center strong m-4"><strong>Carousel</strong></h3>
+    <section class = 'carouselPhotos'>
+
+
+        <div id="carouselExample" class="carousel slide">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pics/Dubai.jpg" class="d-block w-100"  alt="Dubai"  width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/Moscow.jpg" class="d-block w-100"  alt="Moscow"  width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/LasVegas.jpg" class="d-block w-100"  alt="Las Vegas"  width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/Maldives.jpg" class="d-block w-100"  alt="Maldives" width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/Paris.jpg" class="d-block w-100"  alt="Paris" width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/Tallinn.jpg" class="d-block w-100"  alt=Tallinn" width="400">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h3 class="text-center strong m-4"><strong>Cards</strong></h3>
+
+    </section>
+
+    <section class="card">
+        <div class="container overflow-hidden">
+            <div class="row gx-3 gy-3">
+
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 300px;">
+                        <img src="pics/Paris.jpg" class="card-img-top" alt="Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <p class="card-text">Paris is the capital city of France and a top destination for travelers from all over the world. Known as the "City of Light," Paris is famous for its beautiful architecture, art museums, fashion boutiques, gourmet cuisine, and romantic atmosphere..</p>
+                            <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Read more</a>
+                        </div>
+                        </div>
+                    </div>
+
+
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 300px;">
+                    <img src="pics/Moscow.jpg" class="card-img-top" alt="Moscow">
+                            <div class="card-body">
+                                <h5 class="card-title">Moscow</h5>
+                                <p class="card-text">Moscow is the capital city of Russia and one of the world's most fascinating cities. Known for its rich history, stunning architecture, and vibrant culture, Moscow is a must-visit destination for travelers.</p>
+                                <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Read more</a>
+                            </div>
+                                </div>
+                    </div>
+
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 300px;">
+                            <img src="pics/Tallinn.jpg" class="card-img-top" alt="Tallinn">
+                            <div class="card-body">
+                                <h5 class="card-title">Tallinn</h5>
+                                <p class="card-text">Tallinn is the capital city of Estonia and a charming medieval town situated on the shores of the Baltic Sea. Known for its well-preserved Old Town, Tallinn offers visitors a unique blend of historical and modern attractions.</p>
+                                <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                <!--<div class= "col-sx-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 300px;">
+                        <img src="nature4.jpg" class="card-img-top" alt="esimene">
+                        <div class="card-body">
+                            <h5 class="card-title">Loodus</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 300px;">
+                        <img src="nature5.jpg" class="card-img-top" alt="esimene">
+                        <div class="card-body">
+                            <h5 class="card-title">Loodus</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= "col-sx-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 300px;">
+                        <img src="nature6.jpeg" class="card-img-top" alt="esimene">
+                        <div class="card-body">
+                            <h5 class="card-title">Loodus</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="https://www.jetbrains.com/help/idea/reference-keymap-win-default.html#caret_navigation" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>-->
+
+                </div>
+            </div>
+
+    </section>
+
+</main>
+<footer>
+    <p>©Copyright 2023 by nobody. All rights reversed.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+</body>
+</html>

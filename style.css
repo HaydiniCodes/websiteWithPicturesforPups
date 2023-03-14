@@ -1,0 +1,108 @@
+
+html, body {
+    margin: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    background-color: #a9a9a9;
+}
+
+html {
+    font-size: 10px;
+}
+
+ #button1, #button2, #button3, #button4{
+     font-family: "Bookman Old Style";
+     color: #2a2a2a;
+
+ }
+
+h1 {
+    text-align: center;
+    font-family: "Bookman Old Style";
+    color: white;
+    }
+h3 {
+    background-color: antiquewhite;
+    padding: 5px
+}
+
+.galleryPhotos, .carouselPhotos{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+.carouselPhotos {
+    margin-bottom: 60px;
+}
+
+
+
+ main, footer, nav{
+    background-color: white}
+
+ header{
+     background-color: black;
+     padding: 5px
+ }
+
+nav{
+    background-color:green;
+    border: 20px;
+}
+
+
+main {
+    display: block;
+    text-align: center;
+}
+
+
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+img{
+   width: 400px;
+    border-radius: 20px;
+}
+
+.carousel{
+    width: 50%;
+    position: center;
+    margin: 20px auto 0 auto;
+}
+.card{
+    margin:20px;
+}
+
+
+nav {
+    height: 50px; /* sets the height of the navbar to 50 pixels */
+    background-color: #333; /* sets the background color of the navbar */
+}
+
+
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Bookman Old Style";
+    font-size: 15px;
+}
+
+.m-4{
+    margin-top: 50px !important;
+}
+
+
